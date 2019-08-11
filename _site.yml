@@ -1,0 +1,24 @@
+name: "Alexis L. Norris"
+output_dir: "."
+navbar:
+  title: "Alexis L. Norris"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Pugs"
+      href: pugs.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/anorris8
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/alexislnorris
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/alexisleighnorris/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
